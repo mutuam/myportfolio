@@ -180,10 +180,10 @@ header.sticky{
     gap:1.5rem;
     background-color:black;
 }
+
 .about-img img{
     max-width:530px;
     height:auto;
-    /* width:100%; */
     border-radius:8px;
 }
 .about-text h2{
@@ -268,7 +268,7 @@ header.sticky{
 }
 .portfolio-content{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,auto));
+    grid-template-columns:repeat(auto-fit,minmax(300px,auto));
     align-items:center;
     gap:2.5rem;
     margin-top: 5rem;

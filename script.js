@@ -15,3 +15,5 @@ window.onscroll = () => {
     menu.classList.remove('bx-x');
     navlist.classList.remove('open');
 };
+
+
