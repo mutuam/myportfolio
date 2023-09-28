@@ -76,7 +76,7 @@ section{
     position:relative;
     height:100vh;
     width:100%;
-    background-image:url(katel.png);
+    background-image:url(images/katel.png);
     background-size:cover;
     background-position:right;
     display:flex;
