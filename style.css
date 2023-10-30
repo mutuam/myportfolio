@@ -13,6 +13,7 @@
     --text-color:#fff;
     --second-color:#ccc;
     --main-color:#ff4d05;
+    --shadow-color:rgba(0, 0, 0, 0.928);
     --big-font:5rem;
     --h2-font:3rem;
     --p-font:1.1rem;
@@ -303,9 +304,10 @@ header.sticky{
     transition: height 0.5s;
 }
 .layer h5{
-    font-size:20px;
+    font-size:30px;
     font-weight:600;
     margin-bottom:15px;
+    color:var(--shadow-color);
 }
 .layer p{
     color:var(--second-color);
