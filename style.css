@@ -13,7 +13,7 @@
     --text-color:#fff;
     --second-color:#ccc;
     --main-color:#ff4d05;
-    --shadow-color:rgba(0, 0, 0, 0.928);
+    --shadow-color:rgba(255, 255, 255, 0.928);
     --big-font:5rem;
     --h2-font:3rem;
     --p-font:1.1rem;
@@ -289,7 +289,8 @@ header.sticky{
 .layer{
     width:100%;
     height:0;
-    background:linear-gradient(rgba(0,0,0,0.1),#ff004f);
+   /* background:linear-gradient(rgba(0,0,0,0.1),#ff004f);*/
+    background:linear-gradient(rgba(25, 27, 25, 0.787),#ff004f);
     position:absolute;
     border-radius:8px;
     left:0;
@@ -304,7 +305,7 @@ header.sticky{
     transition: height 0.5s;
 }
 .layer h5{
-    font-size:30px;
+    font-size:25px;
     font-weight:600;
     margin-bottom:15px;
     color:var(--shadow-color);
